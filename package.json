@@ -1,0 +1,42 @@
+{
+  "name": "karma-e2e-and-coverage",
+  "version": "0.3.0",
+  "description": "Full sample of a configuration for karma e2e and tdd-like tests, with Junit report and Coverage report included (ready for Continuous Integration)",
+  "homepage": "https://github.com/jemacchi/karma-e2e-and-coverage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jemacchi/karma-e2e-and-coverage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jemacchi/karma-e2e-and-coverage/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL2",
+      "url": "https://github.com/jemacchi/karma-e2e-and-coverage/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "karma-plugin"
+  ],
+  "engines": {
+        "node": ">=0.8.0"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-uglify": "*",
+    "karma-mocha": "*",
+    "grunt-karma": "*",
+	"karma-chrome-launcher": "*",
+	"karma-coverage": "*",
+	"karma-junit-reporter": "*",
+	"karma-e2e-dsl": "~0.1.0",
+    "grunt": "~0.4.1"
+  },
+  "author": ""
+}
