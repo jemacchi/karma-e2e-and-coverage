@@ -1,6 +1,6 @@
 {
   "name": "karma-e2e-and-coverage",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "description": "Full sample of a configuration for karma e2e and tdd-like tests, with Junit report and Coverage report included (ready for Continuous Integration)",
   "homepage": "https://github.com/jemacchi/karma-e2e-and-coverage",
   "repository": {
