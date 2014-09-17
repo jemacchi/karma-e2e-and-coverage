@@ -38,5 +38,5 @@
 	"karma-e2e-dsl": "~0.1.0",
     "grunt": "~0.4.1"
   },
-  "author": ""
+  "author": "Jose Macchi"
 }
