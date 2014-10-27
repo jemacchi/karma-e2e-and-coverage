@@ -15,7 +15,8 @@ Our example integrates some Mocha TDD tests (no Chai) & e2e tests, with Coverage
 
 Simply execute following commands:
  
- - npm install 
+ - npm install
+ - npm install -g grunt-cli (optional, if you dont have grunt-cli installed globally)
  - npm test
  
 ## Author
