@@ -15,7 +15,7 @@ module.exports = function(grunt) {
     },
     watch: {
       test: {
-        files: ['./test.e2e.js', './karma-e2e-dsl.js'],
+        files: ['./test/test.e2e.js', './lib/karma-e2e-dsl.js'],
         tasks: ['connect', 'uglify:build', 'karma:e2e']
       },
     },
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
-          'dist/karma-e2e-dsl.min.js': ['./karma-e2e-dsl.js']
+          'dist/karma-e2e-dsl.min.js': ['./lib/karma-e2e-dsl.js']
         }
       }
     }
