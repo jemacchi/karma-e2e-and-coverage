@@ -19,6 +19,12 @@ Simply execute following commands:
  - npm install -g grunt-cli (optional, if you dont have grunt-cli installed globally)
  - npm test
  
+## Version
+
+Following [Semantic Versioning Specs] (http://semver.org/)
+
+Current Version > 1.0.0
+
 ## Author
 
 [Jose Macchi](https://github.com/jemacchi)
